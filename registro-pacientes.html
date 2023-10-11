@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="registro_pacientes.css">
+    <title>REGISTRAR PACIENTES  </title>
+</head>
+<body>
+    <h1><img src="img/registro de paciente.png" alt="" width="30">REGISTRAR PACIENTES <img src="img/registro de paciente.png" alt="" width="30"></h1>
+    <p>Bienvenidos a nuestro portal de Registro de Pacientes, una herramienta fundamental para gestionar y mantener un registro completo y actualizado de los pacientes que atiende su institución médica. Nuestra plataforma está diseñada pensando en la eficiencia y la seguridad de los datos médicos.</p>
+   <main>
+    <form id="registro-pacientes-form">
+        <label for="Nombres">Nombre</label>
+        <input type="text" name="nombres" id="nombres">
+        <br>
+        <label for="Apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos">
+        <br>
+        <label for="Cedula">Cedula</label>
+        <input type="text" name="cedula" id="cedula">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <label for="Telefono">Telefono</label>
+        <input type="number" name="telefono" id="telefono">
+        <br>
+        <br>
+        <label for="ESPECIALIDAD">Especialidad Reqerida</label>
+        <select name="especialidad" id="especialidad">
+            <option value=""></option>
+            <option value="Medicina General">Medicina General</option>
+            <option value="Cardiologia">Cardiologia</option>
+            <option value="medicina interna">medicina interna</option>
+            <option value="Dermatologia">Dermatologia</option>
+            <option value="Rehabilitacion fisica">Rehabilitacion fisica</option>
+            <option value="Psicologia">Psicologia</option>
+            <option value="Odontologia">Odontologia</option>
+            <option value="Radiologia">Radiologia</option>
+        </select>
+        <br>
+        <input type="submit" value="REGISTRAR">
+    </form>
+    <div class="boton-container">
+        <a class="btn-devolver" href="index.html">Devolver</a><br><br>
+    </div>
+   </main>
+   <script src="app.js"></script>  
+</body>
+<footer>
+    &copy; MIN-SALUD 2023
+</footer>
+</html>
